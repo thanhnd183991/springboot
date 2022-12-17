@@ -18,7 +18,7 @@ class CodeTest {
                                     .replaceAll("")
                                     .replace("đ", "d")
                                     .replace('Đ','D')
-                                    .replaceAll("[^a-zA-Z0-9\\s]", "-");
+                                    .replaceAll("[^a-zA-Z0-9\\s_]", "-");
      }
 
 
